@@ -116,3 +116,33 @@ Use Case Diagrams are a visual way to represent the interactions between users (
 * **Requirement Validation:** They allow stakeholders to easily verify that the system will meet their needs.
 * **Test Case Generation:** They provide a basis for creating test cases to ensure all functionalities are working correctly.
 * **User-Centric Design:** They focus on the user's perspective, leading to more user-friendly systems.
+
+
+## Acceptance Criteria
+
+Acceptance Criteria are a set of predefined statements that specify the conditions a software feature must meet to be considered complete and acceptable by the stakeholders. They provide a clear and measurable definition of "done" for each requirement.
+
+**Importance of Acceptance Criteria in Requirement Analysis:**
+
+* **Clear Understanding:** They ensure that everyone involved (developers, testers, stakeholders) has the same understanding of what constitutes a successful implementation of a feature.
+* **Testability:** They provide a solid basis for writing test cases, ensuring that the implemented feature can be effectively verified.
+* **Reduced Ambiguity:** They minimize misunderstandings and ambiguities in the requirements, leading to less rework and fewer defects.
+* **Stakeholder Alignment:** They allow stakeholders to clearly articulate and agree on what they expect from a particular feature.
+* **Progress Tracking:** They provide measurable milestones for tracking development progress and determining when a feature is complete.
+* **Improved Communication:** They facilitate clearer communication between the development team and stakeholders throughout the development process.
+
+**Example of Acceptance Criteria for the "Checkout" Feature in the Booking Management System:**
+
+**Feature:** Checkout
+
+**Description:** Allows a logged-in user to review their selected booking(s), enter payment information, and finalize the booking.
+
+**Acceptance Criteria:**
+
+* **AC01:** Given a user has added one or more items to their booking, when the user navigates to the checkout page, then the selected items, quantities, and individual prices should be displayed.
+* **AC02:** Given a user is on the checkout page, then the system should display a clear breakdown of the total cost, including any applicable taxes and fees.
+* **AC03:** Given a user is on the checkout page, then the system should provide options for entering payment information (e.g., credit card details, integration with other payment methods).
+* **AC04:** Given a user has entered valid payment information and clicks the "Confirm Booking" button, when the payment is successfully processed, then the system should display a booking confirmation message with a unique booking ID and booking details.
+* **AC05:** Given a user has entered invalid payment information, when the user clicks the "Confirm Booking" button, then the system should display a clear and informative error message indicating the issue with the payment details.
+* **AC06:** Given a user is on the checkout page, then the system should provide a clear way to navigate back to the booking details page to make changes.
+* **AC07:** Given a user initiates the checkout process, then the system should ensure that all communication of sensitive payment information is secured using HTTPS.
