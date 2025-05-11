@@ -23,3 +23,17 @@ Facilitates effective testing.
 Increases user satisfaction.
 
 In essence, thorough Requirement Analysis is essential for building successful software that meets stakeholder needs and delivers value, preventing costly errors and ensuring a focused development process.
+
+## Key Activities in Requirement Analysis
+
+The Requirement Analysis phase involves several key activities that are crucial for defining the software system effectively. These include:
+
+* **Requirement Gathering:** This involves identifying and collecting all possible requirements for the system from various stakeholders and sources. Techniques used can include interviews, surveys, workshops, and analyzing existing documents. The goal is to obtain a broad understanding of the needs and expectations.
+
+* **Requirement Elicitation:** This activity focuses on refining and elaborating on the initial gathered requirements. It involves actively interacting with stakeholders to clarify ambiguities, uncover hidden needs, and ensure a deep understanding of what is required. Techniques like brainstorming, prototyping, and use case analysis are often employed.
+
+* **Requirement Documentation:** Once the requirements are elicited and understood, they need to be formally documented in a clear, concise, and structured manner. The primary output of this activity is the Software Requirements Specification (SRS) document, which serves as a blueprint for the development process.
+
+* **Requirement Analysis and Modeling:** This involves organizing, structuring, and analyzing the documented requirements. Modeling techniques, such as use case diagrams, activity diagrams, and data flow diagrams, are used to visualize the system and its interactions. This step helps to identify inconsistencies, incompleteness, and potential conflicts among requirements.
+
+* **Requirement Validation:** This critical activity ensures that the documented requirements accurately reflect the stakeholders' needs and are of high quality. Techniques like reviews, inspections, and prototype validation are used to verify the completeness, consistency, clarity, and correctness of the requirements before development begins.
