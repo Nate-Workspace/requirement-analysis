@@ -12,7 +12,7 @@ Specification (Documentation): Formally documenting requirements in a Software R
 Validation: Ensuring requirements accurately reflect stakeholder needs through reviews and prototyping.
 Management: Controlling changes to requirements throughout the SDLC.
 
-### Importance in the SDLC:
+## Why is Requirement Analysis Important?
 Provides a clear foundation for the project.
 Reduces development costs by identifying issues early.
 Improves software quality by ensuring the system meets user needs.
