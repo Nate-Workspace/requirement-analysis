@@ -13,14 +13,14 @@ Validation: Ensuring requirements accurately reflect stakeholder needs through r
 Management: Controlling changes to requirements throughout the SDLC.
 
 ## Why is Requirement Analysis Important?
-Provides a clear foundation for the project.
-Reduces development costs by identifying issues early.
-Improves software quality by ensuring the system meets user needs.
-Minimizes scope creep through a well-defined scope.
-Enhances communication among stakeholders.
-Enables better planning and estimation.
-Facilitates effective testing.
-Increases user satisfaction.
+* Provides a clear foundation for the project.
+* Reduces development costs by identifying issues early.
+* Improves software quality by ensuring the system meets user needs.
+* Minimizes scope creep through a well-defined scope.
+* Enhances communication among stakeholders.
+* Enables better planning and estimation.
+* Facilitates effective testing.
+* Increases user satisfaction.
 
 In essence, thorough Requirement Analysis is essential for building successful software that meets stakeholder needs and delivers value, preventing costly errors and ensuring a focused development process.
 
@@ -37,3 +37,66 @@ The Requirement Analysis phase involves several key activities that are crucial 
 * **Requirement Analysis and Modeling:** This involves organizing, structuring, and analyzing the documented requirements. Modeling techniques, such as use case diagrams, activity diagrams, and data flow diagrams, are used to visualize the system and its interactions. This step helps to identify inconsistencies, incompleteness, and potential conflicts among requirements.
 
 * **Requirement Validation:** This critical activity ensures that the documented requirements accurately reflect the stakeholders' needs and are of high quality. Techniques like reviews, inspections, and prototype validation are used to verify the completeness, consistency, clarity, and correctness of the requirements before development begins.
+
+## Types of Requirements
+
+This section differentiates between functional and non-functional requirements and provides examples within the context of a booking management project.
+
+### Functional Requirements
+
+Functional requirements define *what* the system should do. They describe the specific actions or functions that the software must perform. In essence, they are the features of the system.
+
+**Definition:**
+
+Functional requirements describe the interactions between the system and its environment. They specify how the system should behave when certain conditions are met or when specific inputs are provided. They detail the processes, data manipulation, and computations that the system must carry out.
+
+**Examples for a Booking Management Project:**
+
+* **User Management:**
+    * The system shall allow users to create and manage their accounts (registration, login, profile editing).
+    * The system shall allow administrators to manage user roles and permissions.
+* **Booking Management:**
+    * The system shall allow users to search for available properties/services based on criteria like date, location, and price.
+    * The system shall allow users to book a property/service.
+    * The system shall allow users to view, modify, or cancel their bookings.
+    * The system shall calculate the total booking cost, including taxes and fees.
+    * The system shall generate booking confirmations.
+* **Payment Processing**
+    * The system shall integrate with a payment gateway to process transactions.
+    * The system shall record payment history.
+* **Reporting:**
+    * The system shall generate reports on booking revenue.
+    * The system shall generate reports on property/service availability.
+  
+
+### Non-functional Requirements
+
+Non-functional requirements specify *how* the system should perform. They describe the qualities or attributes that the system must possess. They are often related to system-wide constraints and characteristics, rather than specific features.
+
+**Definition:**
+
+Non-functional requirements specify the criteria that can be used to judge the operation of a system, rather than specific behaviors. They relate to system properties such as performance, security, usability, reliability, scalability, and maintainability.
+
+**Examples for a Booking Management Project:**
+
+* **Performance:**
+    * The system shall respond to user requests within 2 seconds.
+    * The system shall be able to handle 1000 concurrent users.
+* **Security:**
+    * The system shall protect user data and payment information using encryption.
+    * The system shall implement access control to restrict unauthorized access.
+    * The system shall comply with relevant data privacy regulations (e.g., GDPR).
+* **Usability:**
+    * The system shall have a user-friendly interface that is easy to navigate.
+    * The system shall provide clear and helpful error messages.
+* **Reliability:**
+    * The system shall be available 99.9% of the time.
+    * The system shall recover from failures without data loss.
+* **Scalability:**
+    * The system shall be able to handle a growing number of users and bookings.
+    * The system's database should be able to scale to accommodate increased data volume.
+* **Maintainability:**
+    * The system's code shall be well-structured and easy to understand.
+    * The system shall be designed to facilitate future modifications and enhancements.
+* **Portability:**
+    * The system shall be compatible with multiple web browsers (Chrome, Firefox, Safari).
